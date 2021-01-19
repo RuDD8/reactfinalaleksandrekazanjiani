@@ -1,0 +1,310 @@
+.logoimg{
+  width: 100px;
+  display: inline;
+}
+.header{
+  position: absolute;
+  margin: 30px 130px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+}
+.navbar{
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  list-style-type: none;
+  
+  height: 30px;
+  overflow: hidden;
+  background-color:green;
+}
+.nav-li{
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+}
+.nav-li:hover {
+  background-color:black;
+}
+.container{
+  margin-top: 200px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.authorization-container{
+  margin-top: 200px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.card-1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 50px 1px 1px 50px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+}
+.authorization-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 800px;
+  text-align: center;
+  font-family: arial;
+  display: inline-block;
+  border-radius: 40px;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.co{
+  margin: 24px 0;
+}
+.footer{
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+.map{
+  position: absolute;
+  right: 1px;
+  width: 40px;
+  margin: 50px 300px;
+}
+.smartphone{
+  position: absolute;
+  right: 1px;
+  width: 40px;
+  margin: 150px 300px;
+}
+.facebook{
+  position: absolute;
+  right: 1px;
+  width: 40px;
+  margin: 250px 300px;
+}
+span {
+  color:black;
+}
+.maplink{
+  font-size: 18px;
+  position: absolute;
+  margin: 60px 140px;
+  color: whitesmoke;
+  text-decoration: none;
+  right: 1px;
+}
+.phone{
+  font-size: 18px;
+  position: absolute;
+  margin: 160px 130px;
+  color: whitesmoke;
+  text-decoration: none;
+  right: 1px;
+}
+.facebooklink{
+  font-size: 18px;
+  position: absolute;
+  margin: 260px 140px;
+  color: whitesmoke;
+  text-decoration: none;
+  right: 1px;
+}
+.desc{
+  margin: 130px 200px;
+  position: absolute;
+  width: 500px;
+  color: whitesmoke;
+  font-size: 16px;
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.contact-back{
+  margin-top: 100px;
+  width: 100%;
+  background-size: cover;
+  background-image: url('./Img/contact-back-01.jpg');
+}
+.contact{
+  margin: 50px 100px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, rgba(102, 0, 255, 0), black);
+  position: relative;
+  height: 1000px;
+  width: 1000px;
+  height: 500px;
+  box-shadow: 10px 10px 10px grey;
+  background-color:black;
+}
+.contacth{
+  position: absolute;
+  margin: 50px 80px;
+  color: white;
+}
+.map1{
+  margin: 170px 80px;
+  position: absolute;
+  width: 30px;
+}
+.call{
+  margin: 300px 80px;
+  position: absolute;
+  width: 30px;
+}
+.email{
+  margin: 430px 80px;
+  position: absolute;
+  width: 30px;
+}
+.locat{
+  color: white;
+  margin: 180px 140px;
+  position: absolute;
+  
+}
+.ph{
+  color: white;
+  margin: 305px 143px;
+  position: absolute;
+}
+.em{
+  color: white;
+  margin: 430px 143px;
+  position: absolute;
+}
+.tbilisi{
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+  border-radius: 30px;
+  width: 500px;
+}
+
+.imgcarrousel{
+  border-radius: 70px;
+  top: 60px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  padding:0;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+}
+.img{
+  position: relative;
+  border: 1px solid black;
+  min-width: 100%;
+  height: 20%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+#prev_Button{
+  color: white;
+  position: absolute;
+  border-radius: 60px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 20%;
+  background:black;
+}
+#next_Button{
+  color: white;
+  position: absolute;
+  border-radius: 60px;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 20%;
+  background: black;
+}
+.pic{
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 5px;
+  height: 22px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #777;
+}
+
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: rgb(235, 54, 54);
+  margin-top: -15px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.logbutton {
+  padding: 10px 15px;
+  background-color: rgb(70, 153, 179);
+  color: white;
+  border: 1px solid rgb(70, 153, 179);
+  background-color: 250ms;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.logbutton:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(70, 153, 179);
+}
